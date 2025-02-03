@@ -1,0 +1,6 @@
+echo "User ID: $(id -u)"
+echo "Primary Group ID: $(id -g)"
+echo "Names of all groups: $(id -Gn)"
+echo "Absolute path of my shell: $SHELL"
+echo "Absolute path of my home directory: $HOME"
+echo "PATH environment variable: $PATH"
